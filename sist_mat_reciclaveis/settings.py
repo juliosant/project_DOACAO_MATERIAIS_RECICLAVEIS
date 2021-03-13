@@ -80,12 +80,12 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_doacao_mat_reciclaveis',
-        'USER': 'julio',
-        'PASSWORD': '86195392jV@',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'db_doacao_mat_recilaveis',
+        'USER': 'padrao',
+        'PASSWORD': 'padrao',
         'HOST': 'localhost',
-        'PORT': '3306'
+        'PORT': '5432'
     }
 }
 
